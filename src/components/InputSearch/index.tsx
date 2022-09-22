@@ -11,8 +11,8 @@ type InputFieldProps = {
     id: string
     type?: "search" | "select"
     placeholder?: string
-    classInput: string
-    classLabel: string
+    classInput?: string
+    classLabel?: string
 }
 
 export function InputSearch(props: InputFieldProps) {
